@@ -1,0 +1,38 @@
+{
+  "name": "mychallenge",
+  "version": "0.0.1",
+  "description": "las mejores series de tv",
+  "main": "index.js",
+  "keywords": [
+    "tv",
+    "shows"
+  ],
+  "author": "carl.rdj",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2",
+    "intl": "^1.2.5",
+    "intl-messageformat": "^1.3.0",
+    "intl-relativeformat": "^1.3.0",
+    "materialize-css": "^0.98.1",
+    "page": "^1.7.1",
+    "qs": "^6.4.0",
+    "title": "^1.0.0",
+    "yo-yo": "^1.4.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.8",
+    "browserify": "^14.1.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "jquery": "^3.2.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "scripts": {
+    "start": "concurrently \"gulp\" \"gulp watch\" \"node server.js\""
+  }
+}
